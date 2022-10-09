@@ -1,0 +1,32 @@
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\AccesoDatos AgenciaAutomotriz.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\AccesoDatos AgenciaAutomotriz.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\ConectarBd.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\MySql.Data.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Google.Protobuf.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\ZstdNet.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Memory.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Buffers.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\ConectarBd.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\ConectarBd.dll.config
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\MySql.Data.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Google.Protobuf.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\Google.Protobuf.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Memory.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Buffers.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\obj\Debug\AccesoDatos AgenciaAutomotriz.csproj.AssemblyReference.cache
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\obj\Debug\AccesoDatos AgenciaAutomotriz.csproj.CoreCompileInputs.cache
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\obj\Debug\AccesoDatos AgenciaAutomotriz.csproj.CopyComplete
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\obj\Debug\AccesoDatos AgenciaAutomotriz.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\AccesoDatos AgenciaAutomotriz\obj\Debug\AccesoDatos AgenciaAutomotriz.pdb

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Manejadores_AgenciaAutomotriz
 {
-    interface IManejador
+    public interface IManejador
     {
         void Guardar(dynamic Entidad);
         void Borrar(dynamic Entidad);

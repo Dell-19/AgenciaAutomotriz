@@ -1,0 +1,6 @@
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\obj\Debug\Entidades AgenciaAutomotriz.csproj.AssemblyReference.cache
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\obj\Debug\Entidades AgenciaAutomotriz.csproj.CoreCompileInputs.cache
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\obj\Debug\Entidades AgenciaAutomotriz.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Entidades AgenciaAutomotriz\obj\Debug\Entidades AgenciaAutomotriz.pdb

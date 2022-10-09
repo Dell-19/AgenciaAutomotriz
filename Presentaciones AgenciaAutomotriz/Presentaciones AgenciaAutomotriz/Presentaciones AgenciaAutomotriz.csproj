@@ -102,5 +102,15 @@
       <DependentUpon>FrmUsuariosAdd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades AgenciaAutomotriz\Entidades AgenciaAutomotriz.csproj">
+      <Project>{8032472a-a20b-4c96-bf93-95bfb6816e31}</Project>
+      <Name>Entidades AgenciaAutomotriz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manejadores AgenciaAutomotriz\Manejadores AgenciaAutomotriz.csproj">
+      <Project>{cf9c54a6-b0a4-4311-b5f7-d44de13da784}</Project>
+      <Name>Manejadores AgenciaAutomotriz</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

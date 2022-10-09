@@ -19,8 +19,8 @@ namespace AccesoDatos_AgenciaAutomotriz
 
         public void Guardar(dynamic Entidad)
         {
-            b.Comando(string.Format("call insertarproducto({0},'{1}',{2},{3},{4})",
-            Entidad.CodigoBarra, Entidad.Nombre, Entidad.Descripcion,Entidad.Marca,Entidad.IdProducto));
+            b.Comando(string.Format("call insertarproducto('{0}','{1}','{2}','{3}',{4})",
+            Entidad.CodigoBarras, Entidad.Nombre, Entidad.Descripcion,Entidad.Marca,Entidad.IdProducto));
         }
 
         public DataSet Mostrar(string filtro)

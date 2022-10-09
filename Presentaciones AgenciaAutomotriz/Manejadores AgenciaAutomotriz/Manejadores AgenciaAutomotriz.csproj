@@ -55,6 +55,10 @@
       <Project>{cef58f40-fffd-40b7-9d3c-f0a6dad4b61b}</Project>
       <Name>AccesoDatos AgenciaAutomotriz</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Entidades AgenciaAutomotriz\Entidades AgenciaAutomotriz.csproj">
+      <Project>{8032472a-a20b-4c96-bf93-95bfb6816e31}</Project>
+      <Name>Entidades AgenciaAutomotriz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

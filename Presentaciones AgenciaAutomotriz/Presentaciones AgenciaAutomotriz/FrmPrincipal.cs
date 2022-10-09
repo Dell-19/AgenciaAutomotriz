@@ -19,13 +19,18 @@ namespace Presentaciones_AgenciaAutomotriz
 
         private void toolStripLabel2_Click(object sender, EventArgs e)
         {
-            FrmProductos p = new FrmProductos();
-            p.ShowDialog();
+           
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FrmProductos p = new FrmProductos();
+            p.ShowDialog();
         }
     }
 }

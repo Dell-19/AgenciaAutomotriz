@@ -55,6 +55,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "X";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // dgvProductos
             // 
@@ -63,6 +64,8 @@ namespace Presentaciones_AgenciaAutomotriz
             this.dgvProductos.Name = "dgvProductos";
             this.dgvProductos.Size = new System.Drawing.Size(471, 223);
             this.dgvProductos.TabIndex = 1;
+            this.dgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellClick);
+            this.dgvProductos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellEnter);
             // 
             // txtBuscar
             // 
@@ -70,6 +73,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(397, 26);
             this.txtBuscar.TabIndex = 2;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // btnAgregar
             // 
@@ -79,6 +83,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "+";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // FrmProductos
             // 
@@ -95,6 +100,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmProductos";
             this.Text = "FrmProductos";
+            this.Load += new System.EventHandler(this.FrmProductos_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.ResumeLayout(false);

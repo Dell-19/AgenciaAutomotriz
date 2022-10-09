@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using Crud;
 using AccesoDatos_AgenciaAutomotriz;
 using System.Drawing;
+using Entidades_AgenciaAutomotriz;
 
 namespace Manejadores_AgenciaAutomotriz
 {
@@ -34,10 +35,37 @@ namespace Manejadores_AgenciaAutomotriz
         {
             tabla.Columns.Clear();
             tabla.RowTemplate.Height = 30;
-            tabla.DataSource = ap.Mostrar(filtro).Tables["pais"];
-            tabla.Columns.Insert(4, g.Boton("Editar", Color.Aqua));
-            tabla.Columns.Insert(5, g.Boton("Borrar", Color.Lime));
+            tabla.DataSource = ap.Mostrar(filtro).Tables["productos"];
+            tabla.Columns.Insert(5, g.Boton("Editar", Color.Aqua));
+            tabla.Columns.Insert(6, g.Boton("Borrar", Color.BlueViolet));
             tabla.Columns[0].Visible = false;
+        }
+        public Tuple<bool, string> ValidarProductos(string uno,string dos, string tres, string cuatro)
+        {
+            bool error = true;
+            string cadenaErrores = "";
+            if (uno.Length == 0 || uno == null)
+            {
+                cadenaErrores = cadenaErrores + "-El campo CodigoBarras no puede ser vacio\n";
+                error = false;
+            }
+            if (dos.Length == 0 || dos == null)
+            {
+                 cadenaErrores = cadenaErrores + "-El campo  no puede ser vacio\n";
+                 error = false;
+            }
+            if (tres.Length == 0 || tres == null)
+            {
+                cadenaErrores = cadenaErrores + "-El campo no puede ser vacio\n";
+                error = false;
+            }
+            if (cuatro.Length == 0 || cuatro == null)
+            {
+                cadenaErrores = cadenaErrores + "-El campo no puede ser vacio\n";
+                error = false;
+            }
+            var valida = new Tuple<bool, string>(error, cadenaErrores);
+            return valida;
         }
     }
 }
