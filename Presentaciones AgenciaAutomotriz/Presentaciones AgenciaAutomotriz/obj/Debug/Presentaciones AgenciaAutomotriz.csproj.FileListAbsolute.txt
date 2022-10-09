@@ -43,3 +43,5 @@ C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones 
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.exe.config
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.csproj.CopyComplete
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.btnGuardar.resources
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmHerramientas.resources
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmHerramientasAdd.resources
