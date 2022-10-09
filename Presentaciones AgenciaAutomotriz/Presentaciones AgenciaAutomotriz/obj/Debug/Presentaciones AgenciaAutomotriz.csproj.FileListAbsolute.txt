@@ -3,7 +3,6 @@ C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones 
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmProductos.resources
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmProductosAdd.resources
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmUsuarios.resources
-C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.FrmUsuariosAdd.resources
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.csproj.GenerateResource.cache
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.csproj.CoreCompileInputs.cache
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\bin\Debug\Presentaciones AgenciaAutomotriz.exe
@@ -43,3 +42,4 @@ C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones 
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.exe.config
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones AgenciaAutomotriz.csproj.CopyComplete
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Presentaciones AgenciaAutomotriz\obj\Debug\Presentaciones_AgenciaAutomotriz.btnGuardar.resources

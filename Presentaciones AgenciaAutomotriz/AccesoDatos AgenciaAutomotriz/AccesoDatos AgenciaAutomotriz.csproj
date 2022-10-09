@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoProductos.cs" />
+    <Compile Include="AccesoUsuarios.cs" />
     <Compile Include="IAccesos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -32,5 +32,11 @@ namespace Presentaciones_AgenciaAutomotriz
             FrmProductos p = new FrmProductos();
             p.ShowDialog();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            FrmUsuarios u = new FrmUsuarios();
+            u.ShowDialog();
+        }
     }
 }
