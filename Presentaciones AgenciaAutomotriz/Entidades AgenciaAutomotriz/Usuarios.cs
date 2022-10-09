@@ -8,5 +8,6 @@ namespace Entidades_AgenciaAutomotriz
 {
     public class Usuarios
     {
+        public int  { get; set; }
     }
 }
