@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AccesoDatos_AgenciaAutomotriz
 {
-    interface IAccesos
+   public interface IAccesos
     {
         void Guardar(dynamic Entidad);
         void Borrar(dynamic Entidad);

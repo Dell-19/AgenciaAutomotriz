@@ -17,9 +17,15 @@ namespace Presentaciones_AgenciaAutomotriz
             InitializeComponent();
         }
 
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void toolStripLabel2_Click(object sender, EventArgs e)
         {
+            FrmProductos p = new FrmProductos();
+            p.ShowDialog();
+        }
 
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

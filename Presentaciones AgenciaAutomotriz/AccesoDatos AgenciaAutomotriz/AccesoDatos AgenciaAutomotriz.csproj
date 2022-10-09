@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ConectarBd">
+      <HintPath>..\..\..\..\Downloads\ConectarBd\ConectarBd\bin\Debug\ConectarBd.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,8 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoProductos.cs" />
     <Compile Include="IAccesos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades AgenciaAutomotriz\Entidades AgenciaAutomotriz.csproj">
+      <Project>{8032472a-a20b-4c96-bf93-95bfb6816e31}</Project>
+      <Name>Entidades AgenciaAutomotriz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
