@@ -40,12 +40,14 @@ namespace Presentaciones_AgenciaAutomotriz
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(1, 3);
             this.panel1.Name = "panel1";
@@ -141,6 +143,16 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(211, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(122, 29);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Productos";
+            // 
             // FrmProductosAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -163,6 +175,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.Name = "FrmProductosAdd";
             this.Text = "FrmProductosAdd";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,5 +193,6 @@ namespace Presentaciones_AgenciaAutomotriz
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -42,12 +42,14 @@ namespace Presentaciones_AgenciaAutomotriz
             this.txtFdn = new System.Windows.Forms.TextBox();
             this.txtRfc = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Location = new System.Drawing.Point(1, 2);
             this.panel1.Name = "panel1";
@@ -153,6 +155,16 @@ namespace Presentaciones_AgenciaAutomotriz
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(211, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(108, 29);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Usuarios";
+            // 
             // btnGuardar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -177,6 +189,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.Name = "btnGuardar";
             this.Text = "Nombre";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,5 +210,6 @@ namespace Presentaciones_AgenciaAutomotriz
         private System.Windows.Forms.TextBox txtFdn;
         private System.Windows.Forms.TextBox txtRfc;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label6;
     }
 }

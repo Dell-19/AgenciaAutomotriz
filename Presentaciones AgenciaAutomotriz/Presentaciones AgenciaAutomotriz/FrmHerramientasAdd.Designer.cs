@@ -42,6 +42,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,6 +89,7 @@ namespace Presentaciones_AgenciaAutomotriz
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(2, 1);
             this.panel1.Name = "panel1";
@@ -160,6 +162,16 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(177, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(157, 29);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Herramientas";
+            // 
             // FrmHerramientasAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -184,6 +196,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.Name = "FrmHerramientasAdd";
             this.Text = "FrmHerramientasAdd";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,5 +217,6 @@ namespace Presentaciones_AgenciaAutomotriz
         private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label6;
     }
 }

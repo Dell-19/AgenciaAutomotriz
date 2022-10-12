@@ -42,7 +42,7 @@ namespace Presentaciones_AgenciaAutomotriz
             {
                 case 6:
                     {
-                        FrmProductosAdd pd = new FrmProductosAdd();
+                        FrmHerramientasAdd pd = new FrmHerramientasAdd();
                         pd.ShowDialog();
                         txtBuscar.Text = "";
                         actualizar();

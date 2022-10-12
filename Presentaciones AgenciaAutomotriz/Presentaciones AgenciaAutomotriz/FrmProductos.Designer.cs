@@ -34,6 +34,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.SuspendLayout();
@@ -41,6 +42,7 @@ namespace Presentaciones_AgenciaAutomotriz
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
@@ -85,6 +87,16 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(211, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 29);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Productos";
+            // 
             // FrmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -102,6 +114,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.Text = "FrmProductos";
             this.Load += new System.EventHandler(this.FrmProductos_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -115,5 +128,6 @@ namespace Presentaciones_AgenciaAutomotriz
         private System.Windows.Forms.DataGridView dgvProductos;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Label label1;
     }
 }

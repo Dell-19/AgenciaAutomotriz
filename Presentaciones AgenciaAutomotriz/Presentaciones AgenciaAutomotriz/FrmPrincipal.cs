@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -19,18 +20,11 @@ namespace Presentaciones_AgenciaAutomotriz
 
         private void toolStripLabel2_Click(object sender, EventArgs e)
         {
-           
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void toolStripButton2_Click(object sender, EventArgs e)
-        {
-            FrmProductos p = new FrmProductos();
-            p.ShowDialog();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -43,6 +37,56 @@ namespace Presentaciones_AgenciaAutomotriz
         {
             FrmHerramientas h = new FrmHerramientas();
             h.ShowDialog();
+        }
+        private void ControlarBotones(bool Usuarios, bool Productos, bool Herramientas)
+        {
+            toolStripButton1.Enabled = Usuarios;
+            toolStripButton2.Enabled = Productos;
+            toolStripButton3.Enabled = Herramientas;
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FrmProductos p = new FrmProductos();
+            p.ShowDialog();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                ControlarBotones(true, true, true);
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                ControlarBotones(false,false , true);
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                ControlarBotones(false,true,false);
+            }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                ControlarBotones(true,false, false);
+            }
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if (true)
+            { ControlarBotones(false, false, false); }
         }
     }
 }

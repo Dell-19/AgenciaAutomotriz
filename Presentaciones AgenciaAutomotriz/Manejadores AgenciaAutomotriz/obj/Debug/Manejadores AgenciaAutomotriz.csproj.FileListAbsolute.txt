@@ -33,3 +33,5 @@ C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores Age
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores AgenciaAutomotriz\obj\Debug\Manejadores AgenciaAutomotriz.pdb
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.dll
 C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores AgenciaAutomotriz\bin\Debug\Entidades AgenciaAutomotriz.pdb
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores AgenciaAutomotriz\bin\Debug\Usuarios.dll
+C:\Users\YARELY\Desktop\Agencia\Presentaciones AgenciaAutomotriz\Manejadores AgenciaAutomotriz\bin\Debug\Usuarios.pdb
