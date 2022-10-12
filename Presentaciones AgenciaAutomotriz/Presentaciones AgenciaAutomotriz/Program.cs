@@ -12,7 +12,7 @@ namespace Presentaciones_AgenciaAutomotriz
         [STAThread]
         static void Main()
         {
-            Application.Run(new FrmPrincipal());
+            Application.Run(new FrmSeccion());
         }
     }
 }

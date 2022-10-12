@@ -84,6 +84,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnCancelar.TabIndex = 23;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
@@ -94,6 +95,7 @@ namespace Presentaciones_AgenciaAutomotriz
             this.btnGuardar.TabIndex = 22;
             this.btnGuardar.Text = " Aceptar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click_1);
             // 
             // txtContraseña
             // 

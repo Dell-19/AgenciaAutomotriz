@@ -24,7 +24,7 @@ namespace Presentaciones_AgenciaAutomotriz
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace Presentaciones_AgenciaAutomotriz
         {
             if (true)
             {
-                ControlarBotones(false,false , true);
+                ControlarBotones(false,true ,false);
             }
         }
 
@@ -71,7 +71,7 @@ namespace Presentaciones_AgenciaAutomotriz
         {
             if (true)
             {
-                ControlarBotones(false,true,false);
+                ControlarBotones(false,false,true);
             }
         }
 
@@ -87,6 +87,11 @@ namespace Presentaciones_AgenciaAutomotriz
         {
             if (true)
             { ControlarBotones(false, false, false); }
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            ControlarBotones(false, false, false);
         }
     }
 }
